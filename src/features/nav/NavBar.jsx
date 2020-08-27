@@ -21,6 +21,7 @@ function NavBar({ setFormOpen }) {
         </Menu.Item>
 
         <Menu.Item as={NavLink} to='/events' name='Events'></Menu.Item>
+        <Menu.Item as={NavLink} to='/sandbox' name='Sandbox'></Menu.Item>
         {authenticated && (
           <Menu.Item as={NavLink} to='/createEvent'>
             <Button
