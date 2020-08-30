@@ -26,7 +26,7 @@ function NavBar({ setFormOpen }) {
           <Menu.Item as={NavLink} to='/createEvent'>
             <Button
               onClick={() => {
-                setFormOpen(true);
+                // setFormOpen(true);
               }}
               positive
               inverted
