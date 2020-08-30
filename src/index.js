@@ -10,16 +10,6 @@ import { configureStore } from "./app/store/configureStore";
 import ScrollToTop from "./app/layout/ScrollToTop";
 
 const rootEl = document.getElementById("root");
-
-// function render() {
-// ReactDOM.render(<App />, rootEl);
-// }
-
-// if (module.hot) {
-//   module.hot.accept('./app/layout/App', function(){
-//     setTimeout(render);
-//   })
-// }
 const store = configureStore();
 ReactDOM.render(
   <Provider store={store}>

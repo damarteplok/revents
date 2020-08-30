@@ -9,7 +9,7 @@ import EventForm from "../../features/events/eventForm/EventForm";
 import SanBox from "../../features/sandbox/SanBox";
 
 function App() {
-  const {key} = useLocation();
+  const { key } = useLocation();
   return (
     <>
       <Route exact path='/' component={HomePage} />
